@@ -1,0 +1,120 @@
+body {
+	background-color: lightgray;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+	font-family: arial,sans-serif;
+	overflow: hidden;
+	background-color: #97CC73;
+}
+
+.right_menu {
+	float: right;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #757F6E;
+}
+
+#home_pic {
+	padding: 15px;
+}
+
+.base {
+	width: 75%;
+	margin: 10px auto;
+	background-color: #757F6E;
+	text-align: center;
+	color: lightgray;
+	border-radius: 5px;
+}
+
+#left_justify {
+	text-align: left;
+	padding: 0px 10px 10px;
+}
+
+#address {
+	text-align: center;
+	font-size: 30px;
+	color: #5E7F48;
+}
+
+.care {
+	margin: 10px auto;
+	padding: 10px;
+	width: 40%;
+	background-color: #EAFFDC;
+	border-width: 3px;
+	border-color: #757F6E;
+	border-style: solid;
+	border-radius: 25px;
+}
+
+.care h3 {
+	text-align: center;
+}
+
+.care img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+    border: 3px #5E7F48 solid;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 10px auto;
+    font-family: Garamond, Times, serif;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #EAFFDC
+}
+
+tr:hover {
+	background-color:#97CC73
+}
+
+td {
+	font-size: 30px;
+}
+
+th {
+    background-color: #5E7F48;
+    color: white;
+}
+
+footer {
+	background-color: #EAFFDC;
+	bottom: 0px;
+	position: relative;
+	margin-bottom: 0px;
+	padding: 1px;
+	width: 100%;
+	color: #757F6E;
+	text-align: center;
+	font-size: 12px;
+	line-height: .3;
+}

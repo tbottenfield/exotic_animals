@@ -3,45 +3,62 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Indianola Exotic Animals - About</title>
-        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <title>Indianola Exotic Animals</title>
+        <link rel="stylesheet" type="text/css" href="css/exoticAnimals.css">
+
+        <style type="text/css">
+            h1 {
+                color: #5E7F48;
+                font-size: 40px;
+                font-family: Garamond, Times, serif;
+                margin: 0px;
+            }
+            h1 img {
+                vertical-align: bottom;
+            }
+        </style>
     </head>
 
     <body>
     
-        <h1><img src="img/logo.jpg" alt="website_logo"/>Indianola Exotic Animals</h1>
+        <h1><img src="img/logo.jpg" alt="website_logo"/> Indianola Exotic Animals</h1>
 
         <nav>
             <ul>
-                <li><a href="signup.html">Sign Up</a></li>
-                <li><a href="login.html">Log In</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="hours.html">Hours and Directions</a></li>
                 <li><a href="forsale.html">Animals For Sale</a></li>
                 <li><a href="info.html">Pet Care</a></li>
                 <li><a href="petofmonth.html">Pet of the Month</a></li>
+                <li class="right_menu"><a href="signup.html">Sign Up</a></li>
+                <li class="right_menu"><a href="login.html">Log In</a></li>
             </ul>
         </nav>
-        <p>We are an exotic animal pet store, looking to not only sell exotic animals, but also to inform a pet lover how to take great care of their animal.</p>
 
-        <p>If you have any questions feel free to email us at: ie@test.com.</p>
-        <p>Or you can post a comment below. We'd love to hear from you!</p>
+        <div class="base">
+            <h2>About Us</h2>
+            <div id="left_justify">
+                <p>We are an exotic animal pet store, looking to not only sell exotic animals, but also to inform a pet lover how to take great care of their animal.</p>
 
-        <h2>Send us a Comment!</h2>
+                <p>If you have any questions feel free to email us at: ie@test.com.</p>
+                <p>Or you can post a comment below. We'd love to hear from you!</p>
 
-        <form action="mailto:ie@test.com" method="post" enctype="text/plain">
-            Name:<br>
-            <input type="text" name="name"><br>
-            E-mail:<br>
-            <input type="text" name="mail"><br>
-            Comment:<br>
-            <input type="text" name="comment" size="50"><br><br>
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
-        </form>
+                <h3>Send us a Comment!</h3>
+
+                <form action="mailto:ie@test.com" method="post" enctype="text/plain">
+                    Name:<br>
+                    <input type="text" name="name"><br>
+                    E-mail:<br>
+                    <input type="text" name="mail"><br>
+                    Comment:<br>
+                    <input type="text" name="comment" size="50"><br><br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+        </div>
      
-
-
     <footer>
         <p>&copy; 2016 Indianola Exotic Animals. All rights reserved</p>
         <p>1234 South 5th Street, Indianola, IA 50125</p>

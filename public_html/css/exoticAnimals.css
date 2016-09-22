@@ -38,34 +38,61 @@ nav li a:hover {
 }
 
 .base {
-	width: 75%;
-	margin: 10px auto;
+	width: 85%;
+	margin: 5px auto;
 	background-color: #757F6E;
 	text-align: center;
 	color: lightgray;
-	border-radius: 5px;
+	border-style: double;
+	border-color: #BCFF8F;
+	border-width: 5px;
 }
 
-#left_justify {
+.heading {
+	width: 85%;
+	margin: 10px auto;
+	background-color: #757F6E;
+	text-align: center;
+	color: #EAFFDC;
+	border-style: dotted;
+	border-color: #EAFFDC;
+	border-width: 5px;
+	font-family: Garamond, Times, serif;
+	font-size: 18px;
+}
+
+.left_justify {
 	text-align: left;
-	padding: 0px 10px 10px;
+	padding: 0px 15px 15px;
+}
+
+.input {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #97CC73;
+	background-color: #BCFF8F;
+	margin: 5px 10px 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 450px;
+	color: #5E7F48;
 }
 
 #address {
-	text-align: center;
 	font-size: 30px;
-	color: #5E7F48;
 }
 
 .care {
 	margin: 10px auto;
 	padding: 10px;
 	width: 40%;
-	background-color: #EAFFDC;
+	background-color: #BCFF8F;
 	border-width: 3px;
-	border-color: #757F6E;
+	border-color: #97CC73;
 	border-style: solid;
 	border-radius: 25px;
+	color: #5E7F48;
+	text-align: left;
 }
 
 .care h3 {
@@ -92,7 +119,11 @@ th, td {
 }
 
 tr:nth-child(even) {
-	background-color: #EAFFDC
+	background-color: #BCFF8F;
+}
+
+tr:nth-child(odd) {
+	background-color: #EAFFDC;
 }
 
 tr:hover {
@@ -101,11 +132,20 @@ tr:hover {
 
 td {
 	font-size: 30px;
+	color: #5E7F48;
 }
 
 th {
     background-color: #5E7F48;
     color: white;
+}
+
+#too_tall {
+	padding-top: 15px;
+}
+
+.userform {
+	margin-left: 7%;
 }
 
 footer {

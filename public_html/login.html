@@ -13,6 +13,7 @@
                 font-size: 40px;
                 font-family: Garamond, Times, serif;
                 margin: 0px;
+                background-color: #BCFF8F;
             }
             h1 img {
                 vertical-align: bottom;
@@ -38,17 +39,18 @@
         </nav>
 
 
-        <form>
-            <fieldset>
-                <legend>Login</legend>
-                First name:<br>
-                <input type="text" name="firstname" value="">
-                <br>
-                Last name:<br>
-                <input type="text" name="lastname" value="">
-                <br><br>
-                <input type="submit" value="Submit">
-            </fieldset>
+        <div class="heading">
+            <h2>Login</h2>
+        </div>
+
+        <form class="input userform" method="post">
+            First name:<br>
+            <input type="text" name="firstname" value="">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname" value="">
+            <br><br>
+            <input type="submit" value="Submit">
         </form>
 
         <footer>

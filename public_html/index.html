@@ -8,53 +8,82 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="custom.css">
+        <link rel="stylesheet" href="css/custom.css">
     </head>
 
     <body>
-    
-        <!--<h1><img src="img/logo.jpg" alt="website_logo"/> Indianola Exotic Animals</h1>-->
-
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-              <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
-
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-
-                  <a class="navbar-left" href="#"><img src="img/logo.jpg" alt="website_logo" width="50"> </a>
-                  <a class="navbar-brand" style="margin-left: 5px;">Indianola Exotic Animals</a>
                 </div>
 
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active navbar-left"><a href="index.html">Home</a></li>
-                        <li class="navbar-left"><a href="about.html">About Us</a></li>
-                        <li class="navbar-left"><a href="hours.html">Hours and Directions</a></li>
-                        <li class="navbar-left"><a href="forsale.html">Animals For Sale</a></li>
-                        <li class="navbar-left"><a href="info.html">Pet Care</a></li>
-                        <li class="navbar-left"><a href="petofmonth.html">Pet of the Month</a></li>
-                        <li class="navbar-right"><a href="signup.html">Sign Up</a></li>
-                        <li class="navbar-right"><a href="login.html">Log In</a></li>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="hours.html">Hours and Directions</a></li>
+                        <li><a href="forsale.html">Animals For Sale</a></li>
+                        <li><a href="info.html">Pet Care</a></li>
+                        <li><a href="petofmonth.html">Pet of the Month</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="signup.html">Sign Up</a></li>
+                        <li><a href="login.html">Log In</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+
+        <div class="container">
+            <div class="below_menu_container">
+                <h1><img src="img/logo.jpg" alt="website_logo"/> Indianola Exotic Animals</h1>
+                
+                <div class="jumbotron">
+                    <h1>Welcome To Indianola Exotic Animals!</h1>
+                    <p>Looking for an exotic pet?</p>
+                    <p>We sell Crocodiles, Brown Bears, Skunks, Wallabies, Squirrel Monkeys, Penguins, Zebras, And Many More...!</p>
+                    <p><a class="btn btn-info btn-lg" href="about.html" role="button">Learn more</a></p>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/crocodile.jpg" alt="crocodile" width="230">
+                    </a>
+                  </div>
+                  <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/spidermonkey.jpg" alt="monkey" width="215">
+                    </a>
+                  </div>
+                  <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/zebra.jpg" alt="zebra" width="250">
+                    </a>
+                  </div>
+                  <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/bear.jpg" alt="bear" width="190">
+                    </a>
+                  </div>
+                </div>
+            </div>
+        </div>
         
-        <h2>Looking for an exotic pet?</h2>
-
-        <p>We sell Crocodiles, Brown Bears, Skunks, Wallabies, Squirrel Monkeys, Penguins, Zebras, And Many More...!</p>
-        <img src="img/crocodile.jpg" alt="crocodile" width="400" id="home_pic" />
-    
-    <footer>
-        <p>&copy; 2016 Indianola Exotic Animals. All rights reserved</p>
-        <p>1234 South 5th Street, Indianola, IA 50125</p>
-        <p>(515)555-5555</p>
-    </footer>
-
+        <div class="navbar navbar-inverse navbar-fixed-bottom">
+            <div class="container-fluid">
+                <center>
+                <p style="color:lightgray;">&copy; 2016 Indianola Exotic Animals. All rights reserved &#9679; 1234 South 5th Street, Indianola, IA 50125 &#9679; (515)555-5555</p>
+                </center>
+            </div>
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
 </html>

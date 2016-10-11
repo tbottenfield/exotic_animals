@@ -6,8 +6,12 @@
 }
 
 .navbar-static-bottom {
-	background-color: #A3EBF7;
+	background-color: #E0ECEF;
 	color: #005361;
+	border-style: solid;
+	border-color: #6C8B00;
+	border-right: 2px;
+	border-left: 2px;
 }
 
 .btn {
@@ -48,9 +52,9 @@ h3 {
 	margin: 10px auto;
 	padding: 10px;
 	height: 350px;
-	background-color: #A3EBF7;
+	background-color: #E0ECEF;
 	border-width: 1px;
-	border-color: #00D9FF;
+	border-color: #005361;
 	border-style: solid;
 	border-radius: 5px;
 	color: #005361;
@@ -87,13 +91,6 @@ h3 {
 
 .footer p{
 	padding-top: 20px;
-}
-
-.navbar-static-bottom{
-	border-style: solid;
-	border-color: #6C8B00;
-	border-right: 2px;
-	border-left: 2px;
 }
 
 .btn-colored{
